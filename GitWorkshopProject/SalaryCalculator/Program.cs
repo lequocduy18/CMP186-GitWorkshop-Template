@@ -9,12 +9,9 @@ namespace SalaryCalculator
             var engineerSalary = EmployeeService.CalculateSalary(EmployeeType.Engineer, 2);
             Console.WriteLine(string.Format("Engineer's Salary: {0}", engineerSalary));
 
-<<<<<<< Updated upstream
-=======
             //Manager with 7 years of exp
             var managerSalary = EmployeeService.CalculateSalary(EmployeeType.Manager, 7);
             Console.WriteLine(string.Format("Manager's Salary: {0}", managerSalary));
->>>>>>> Stashed changes
             Console.ReadLine();
 
             //Expert with 9 years of exp
